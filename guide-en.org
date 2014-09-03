@@ -95,13 +95,10 @@ When I say Emacs takes you one year, I mean *your spare time* of one year to mas
 
 BTW, I encourage you using any other text editor after one year if you want to help unbelievers to understand the definition of "mastery".
 *** What matters is Attitude
-How good you will be at Emacs is determined by your attitude,
+How good you will be at Emacs is determined by your attitude. If I could only give one piece of advice to the beginner, it would be 
 
-Here are my suggestions,
-- Be open minded. For example, why not try Vim key bindings after being familiar with Emacs default key bindings. Or vice versa.
-- Bettering yourself is the purpose. For example, there are several good plugins to do the sub-windows navigation. Spend some time to use them all to find the most efficient one though the difference between the best and average is minor.
-- Half a tale is enough for a wise man. For example, when a guy showed off [[http://www.sublimetext.com/][Sublime Text]] to me, I realized that there should exist [[https://github.com/alloy-d/color-theme-molokai][similar beautiful color theme]] in Emacs and I immediately switched my Emacs color theme.
-** Step by Step Guide
+be open minded. Let us start from some negative example. Newbies usually assume that the key binding is one important Emacs skill. They have spent too much time on key bindings. Some vi users would rather give up vi muscle memory when using Emacs. Actually, key binding is the most trivial thing in Emacs. Emacs is powerful enough to let you choose any way you like to get the job done. Even if you want to learn Emacs key bindings, you'd better start from input the complete command from the [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Minibuffer.html][MiniBuffer]]. Many people failed because they had assumption before plunging into Emacs.
+
 *** Quick guide for greenhands of Linux/Unix (OPTIONAL) 
 Here are the steps:
 - Install Emacs 24
@@ -134,7 +131,7 @@ I learned this lesson the hard way. At the beginning, I regarded Emacs as some g
 
 That's totally a waste of time if my goal is to become an Emacs master!
 
-I should copy [[https://github.com/purcell/emacs.d][Steve Purcell's]] setup!
+I should copy [[https://github.com/purcell/emacs.d][Steve Purcell's]] setup at the beginning!
 
 Please don't repeat my mistake. Don't hesitate. Just follow Steven Purcell!
 
@@ -164,6 +161,19 @@ If you are still not convinced, consider my reasons:
 - You will get guidance from the master when she analyzes your bug report.
 
 Anyway, if you find Purcell is too technically challenging to follow (What a pity, BTW), there is more stable setup like [[http://eschulte.github.io/emacs-starter-kit/][Eric Schulte's Emacs Starter Kit]].
+*** Start to report  
+*** Better yourself everyday
+I started from [[https://sites.google.com/site/steveyegge2/tour-de-babel][Steve Yegges' article]]. The most inspiring text in the article is as below,
+#+BEGIN_EXAMPLE
+Go look over Paul Nordstrom's shoulder while he works sometime, if you don't believe me. It's a real eye-opener for someone who's used Visual Blub .NET-like IDEs their whole career.
+#+END_EXAMPLE
+
+After reading the text, I decided that my goal is to be as good as Paul Nordstrom. It's almost mission impossible considering [[http://www.linkedin.com/in/paulnpcom][who Paul Nordstrom is]]. The reason to set a goal I can never reach is to make sure that I will not stop in my comfort zone. Whatever minor task I takes, I always ask myself how Paul Nordstrom will handle it. Is my operation efficient enough that Steve Yegge will be suprised.
+
+For example, switch focus between sub-windows in Emacs is not efficient by default. I need press "Ctrl-x O" several times to jump to a specific window. Then I found plugin [[https://github.com/dimitri/switch-window][switch-window]]. Pressing "Ctr-x O" plus number key was enough to finish the operation. I kept searching and found [[https://github.com/nschum/window-numbering.el][window-numbering]]. Alt plus number key is enough. That's 60% productivity improvement. Alt key is still a little bit far away from the default position of fingers. If I use [[https://gitorious.org/evil/pages/Home][Evil-mode]] and [[https://github.com/cofi/evil-leader][evil-leader]], I need only [[https://github.com/redguardtoo/emacs.d/blob/master/init-evil.el][press comma key and number key to switch window]].
+
+Half a tale is enough for a wise man. For example, when a guy showed off [[http://www.sublimetext.com/][Sublime Text]] to me, I realized that there should exist [[https://github.com/alloy-d/color-theme-molokai][similar beautiful color theme]] in Emacs and I immediately switched my Emacs color theme.
+** Step by Step Guide
 ** Join the community
 I suggest focusing on Emacs only in order to take full advantage of communities.
 
